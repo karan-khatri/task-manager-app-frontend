@@ -12,7 +12,7 @@ const initialState = {
   modalTask: {},
 };
 
-const baseURL = 'https://react-app-task-manager-api.herokuapp.com/v1/tasks/';
+const baseURL = 'https://task-manager-b1za.onrender.com/v1/tasks/';
 
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
